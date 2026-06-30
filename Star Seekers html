@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star Seekers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>⭐ Star Seekers</h1>
+    <p>Collect as many stars as you can!</p>
+    <button onclick="collectStar()">Collect Star</button>
+    <h2>Stars: <span id="score">0</span></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
