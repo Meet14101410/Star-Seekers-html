@@ -1,0 +1,12 @@
+let stars = 0;
+
+function collectStar() {
+  stars++;
+  document.getElementById("score").textContent = stars;
+
+  if (stars === 10) {
+    alert("🎉 You collected 10 stars! You win!");
+    stars = 0;
+    document.getElementById("score").textContent = stars;
+  }
+}
